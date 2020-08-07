@@ -1,0 +1,28 @@
+h1{
+  color: orange;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+img{
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+}
+table,tr,td,thead{
+  border: 2px dotted lightblue;
+  margin: auto;
+  text-align: center;
+}
+span{
+  display: block;
+}
+.container{
+  /* text-align: center; */
+}
+li{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.center{
+  margin: auto;
+}

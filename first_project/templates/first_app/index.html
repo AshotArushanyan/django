@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends "first_app/base.html" %}
+{% load static %}
+{% block content %}
+  <div class="container">
+    <div class="jumbotron">
+        <h1>Lorem ipsum dolor sit amet,  incididunt ut labore </h1>
+        <img  src="{% static "images/picture.jpg" %}" alt="">
+        <img  src="{% static "images/photo.jpg" %}" alt="">
+        <img  src="{% static "images/picture.jpg" %}" alt="">
+        <img  src="{% static "images/photo.jpg" %}" alt="">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    </div>  
+  </div>
+{% endblock %}
